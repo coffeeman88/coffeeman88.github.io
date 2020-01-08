@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap')
+	;
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+body {
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #454e54;
+}
+
+/*---NAVBAR---*/
+.navbar {
+	text-transform: uppercase;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.bg-light {
+	background-color: #326647 !important;
+}
+
+.navbar-brand img {
+	height: 3rem;
+}
+
+.navbar-nav li {
+	padding-right: .7 rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link .active, .navbar-dark .navbar-nav .nav-link:hover
+	{
+	color: #cce6d6;
+}
+
+/*--- Landing Page ---*/
+
+.home-inner{
+	background-color:#dcefe2;
+}
+.caption {
+	width: 100%;
+	max-width:100%;
+	position: absolute;
+	top: 38%;
+	z-index: 1;
+	color: white;
+	font-family: 'Great Vibes', cursive;
+	
+	
+}
+
+.caption h1{
+	font-size: 3.8rem;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 1rem;
+}
+.caption h3{
+	font-size: 2rem;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 1.6rem;
+}
+.btn-lg{
+
+	
+	letter-spacing: .3rem;
+	font-family: 'Lato', sans-serif;
+	font-size:1.1rem;
+	padding: .6rem 1.3rem;
+	
+	
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
