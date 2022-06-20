@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap')
+	;
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+body {
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #454e54;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*---NAVBAR---*/
+.navbar {
+	text-transform: uppercase;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: rgba(0, 0, 0, 0.6) !important;
+	margin-bottom:3rem;
+}
+
+.bg-light {
+	background-color: #326647 !important;
+}
+
+.navbar-brand img {
+	height: 3rem;
+}
+
+.navbar-nav li {
+	padding-right: .7 rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link .active, .navbar-dark .navbar-nav .nav-link:hover
+	{
+	color: #cce6d6;
+}
+
+/*--- Landing Page ---*/
+
+.home-inner{
+	background-color:#dcefe2; 
+	/*background-image: url(img/booksdark.jpg);*/
+}
+.caption {
+	width: 100%;
+	max-width:100%;
+	position: absolute;
+	top: 38%;
+	z-index: 1;
+	color: white;
+	font-family: 'Great Vibes', cursive;
+	
+	
+}
+h3.heading{
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom:1.9rem;}
+.img-fluid{
+	margin-bottom: 1.9rem;
+}
+.caption h1{
+	font-size: 3rem;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 1rem;
+}
+.caption h3{
+	font-size: 1.5rem;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 1.6rem;
+}
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+/*---Course  section*/
+.narrow{
+	width:75%;
+	margin: 1.5rem auto;
+	padding-top: 2rem;
+}
+.img-fluid{
+}
+.narrow h1{
+	font-size: 2.4rem;
+	
+}
+h3.heading{
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom:1.9rem;
+}
+/*-- Zakres us³ug section--*/
+
+.jumbotron{
+	margin-bottom :0;
+	padding: 2rem 0 3.5rem;
+	border-radius:0;
+}
+h3.heading{
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom:1.9rem;
+	text-align: center;
+}
+.heading-underline{
+	width: 3rem;
+	height: .2rem;
+	background-color: #367359;
+	margin: 0 auto 2rem;
+}
+.feature svg.svg-inline--fa{
+	color: #367359;
+	
+}
+.feature h3{
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding-bottom: .4rem;
+	text-align: center;
+}
+.feature p{
+	font-size: 1.1 rem;
+}
+
+/* Wynagrodzenie section--*/
+.fixed {
+	background-image:url()
+}
+.fixed-background h3{
+	
+}
+.fixed-background p{
+	
+}
+
+.footer {
+	background-color: #40474e;
+	color: white;
+	padding: 2rem 0 2rem;
+	margin-top: 1rem;
+}
+hr.socket {
+	width: 100%;
+}
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
